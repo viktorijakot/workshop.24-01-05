@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.project {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectContainer {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.projectContainer h2 {
+  font-weight: 400;
+}
+
+.projectAplicationBox {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: left;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 70%;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+img:hover {
+  opacity: 60%;
+}
+p {
+  font-weight: 100;
+  margin-top: 10px;
+}
+.project2 {
+  position: relative;
+}
+.projectOnTop {
+  position: absolute;
+  margin-top: -20px;
+}
+.p1 {
+  margin-top: -30px;
+  padding: 3px 5px;
+  background-color: white;
+  color: rgba(128, 128, 128, 0.694);
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.p2 {
+  margin-top: 10px;
+  padding: 3px 5px;
+  border: 1px solid white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.projectLanguage {
+  width: 68%;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.projectName {
+  width: 68%;
+}
+.projectName:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.projectLanguage p {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 3px 10px;
+  font-size: smaller;
+  cursor: pointer;
+  transition-duration: 0.25s;
+}
+
+.projectLanguage p:hover {
+  background-color: white;
+  color: black;
+}
+
+.projectBox {
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+/* DOMINYKO */
+
+.top {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 50px;
+  margin-top: 40px;
+}
+
+h5 {
+  cursor: pointer;
+}
+
+h5:hover {
+  text-decoration: underline;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.middle {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 50px;
+}
+
+.text {
+  width: 60%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.Ryan {
+  width: 100%;
+}
+.first,
+.second,
+.third {
+  padding-bottom: 5px;
+}
+
+.whyIamCrying {
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  margin-top: 10px;
+  height: 30px;
+  width: 90px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+body {
+  background-color: #0a0119;
+  color: white;
+}
+
+/* GINTARE */
+
+.gintareContainer {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 40px;
+}
+.gintareBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.gintareh1 {
+  font-family: "Inter";
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+.gintarep {
+  font-family: "Inter";
+  color: white;
+  font-size: 7.8px;
+  line-height: 12.15px;
+  width: 263px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gintarebutton {
+  /* border-radius: 9px;
+  width: 80px;
+  height: 21px;
+  font-size: 8px; */
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  margin-top: 10px;
+  height: 30px;
+  width: 90px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.gintareimg {
+  width: 20%;
+}
+.text2 {
+  width: 60%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: left;
+  width: 463px;
+}
+
+.buttonBox {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+
+/* RASA */
+.rasafirst {
+  color: #fafbff;
+  font-family: Inter;
+  font-size: 9.545px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12.148px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.rasasecond {
+  color: #fafbff;
+  font-family: Inter;
+  font-size: 15.619px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12.148px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.rasathird {
+  color: #fafbff;
+  font-family: Inter;
+  font-size: 20.825px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12.148px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.rasatext {
+  color: #f9f5ff;
+  font-family: Inter;
+  font-size: 15.619px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.rasaend {
+  color: #f9f5ff;
+  font-family: Inter;
+  font-size: 7.81px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.rasacontainer1 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  height: 100px;
+
+  align-items: center;
+}
+
+.rasacontainer2 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rasacontainer3 {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.rasaimg {
+  width: 10.413px;
+  height: 10.413px;
+  flex-shrink: 0;
+}
+
+.rasaicon-gap {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.rasaicon-gap img {
+  width: 30px;
+}
+
+.rasabox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.rasabox2 {
+  width: 80%;
+}
